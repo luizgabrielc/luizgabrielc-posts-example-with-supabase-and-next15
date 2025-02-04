@@ -1,5 +1,5 @@
 import { getPosts } from "./_actions/actions";
-import ButtonDelete from "./_components/buttonDelete";
+import ButtonDelete from "./_components/button-delete";
 import NewPostForm from "./_components/new-post";
 
 export default async function PostsPage() {
@@ -7,9 +7,7 @@ export default async function PostsPage() {
   return (
     <main className="max-w-2xl mx-auto py-10 space-y-6">
       <h1 className="text-3xl font-bold text-center">Lista de Posts</h1>
-
       <NewPostForm />
-
       <ul className="space-y-4">
         {posts.length > 0 ? (
           posts.map((post) => (
