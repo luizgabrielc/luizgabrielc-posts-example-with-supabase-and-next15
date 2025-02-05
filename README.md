@@ -36,12 +36,6 @@ Este projeto é um pequeno exemplo de como utilizar a biblioteca **Supabase** in
    NEXT_PUBLIC_SUPABASE_URL=<Sua URL do Supabase>
    NEXT_PUBLIC_SUPABASE_ANON_KEY=<Sua Chave Anônima do Supabase>
    
-5. Configure as credenciais do Supabase:
-   Crie uma conta no Supabase e configure o seu projeto. Adicione as variáveis de ambiente necessárias para a autenticação e conexão com o banco de dados no arquivo .env.local:
-   ```bash
-   NEXT_PUBLIC_SUPABASE_URL=<Sua URL do Supabase>
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=<Sua Chave Anônima do Supabase>
-   
-6. Acesse a aplicação no seu navegador:
+5. Acesse a aplicação no seu navegador:
    ```bash
    http://localhost:3000
